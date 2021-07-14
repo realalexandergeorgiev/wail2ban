@@ -441,6 +441,8 @@ do { #bedobedo
 			} 
 			clear_attempts
 			unban_old_records
+			# uncomment this to enable HTML report generation
+			# .\wail2ban_htmlgen.ps1
 		}
 	}
 	}
