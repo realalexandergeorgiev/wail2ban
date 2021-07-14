@@ -438,11 +438,12 @@ do { #bedobedo
 			if ($IPCount -ge $CHECK_COUNT) { 
 				jail_lockup $IP		
 				clear_attempts $IP
+				# uncomment this to enable HTML report generation
+				# .\wail2ban_htmlgen.ps1
 			} 
 			clear_attempts
 			unban_old_records
-			# uncomment this to enable HTML report generation
-			# .\wail2ban_htmlgen.ps1
+			
 		}
 	}
 	}
